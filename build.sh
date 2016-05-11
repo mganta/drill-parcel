@@ -14,13 +14,13 @@
 
 #!/bin/sh -xe
 
-export DRILL_VERSION=1.4.0
+export DRILL_VERSION=1.6.0
 export PARCEL_VERSION=0.7
 PACKAGE=apache-drill-${DRILL_VERSION}
 TARBALL=${PACKAGE}.tar.gz
 PARCEL_NAME=DRILL-${DRILL_VERSION}_${PARCEL_VERSION}
 DOWNLOAD_URL=http://apache.cs.utah.edu/drill/drill-${DRILL_VERSION}/${TARBALL}
-DISTROS="el6"
+DISTROS="el7"
 CLEAN="N"
 
 if [ -d "${PARCEL_NAME}" ]
